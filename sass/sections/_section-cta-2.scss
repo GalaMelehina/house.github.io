@@ -1,0 +1,17 @@
+.section-cta-2 {
+    background-color: $bg-color;
+    padding-bottom: 180px;
+}
+
+.section-cta-2__title {
+    margin-bottom: 50px;
+}
+
+.section-cta-2 .form {
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.section-cta-2 .form__text {
+    min-width: 255px;
+}

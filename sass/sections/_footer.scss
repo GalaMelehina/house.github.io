@@ -1,0 +1,46 @@
+/* Sticky Footer */
+.footer {
+	margin-top: auto; /* sticky footer */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2D343C;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .main__nav {
+    flex-direction: column;
+}
+
+.footer .main__nav-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer__info p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer__info a {
+    color: $accent-color;
+}
+
+.footer__info p + p {
+    margin-top: 15px;
+}
+
+.footer__icons {
+    margin-top: 20px;
+}
+
+.footer__icons a:not(:last-child) {
+    margin-right: 20px;
+}

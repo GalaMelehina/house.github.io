@@ -1,0 +1,23 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// Blocks
+@import "./blocks/logo";
+@import "./blocks/main-nav";
+@import "./blocks/title";
+@import "./blocks/card";
+@import "./blocks/card-appartments";
+@import "./blocks/form";
+@import "./blocks/button";
+
+// Sections
+@import "./sections/header";
+@import "./sections/section-description";
+@import "./sections/section-appartments";
+@import "./sections/section-cta";
+@import "./sections/section-video";
+@import "./sections/section-map";
+@import "./sections/section-cta-2";
+@import "./sections/footer";

@@ -1,0 +1,28 @@
+.section-video {
+    position: relative;
+    background-color: $bg-color;
+    padding-bottom: 180px;
+}
+
+.section-video__frame {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 719px; 
+    height: 650px;
+    background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), #626262;
+    background-image: url(./../../img/bg-video.jpg);
+}
+
+.section-video__img {
+    position: absolute;
+    top: 150px;
+    right: 160px;
+}
+
+.section-video__button {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}

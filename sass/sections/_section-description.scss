@@ -1,0 +1,20 @@
+.section-description {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: $bg-color;
+}
+
+.section-description__row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 795px;
+    display: flex;
+    column-gap: 70px;
+}
+
+.section-description__img {
+    position: absolute;
+    top: 80px;
+    right: 258px;
+}

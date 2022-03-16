@@ -1,0 +1,27 @@
+.section-cta {
+    background-image: url(./../../img/bg-form.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-cta__title {
+    padding-top: 180px;
+    margin-bottom: 30px;
+}
+
+.section-cta__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+
+.section-cta__text {
+    max-width: 535px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}

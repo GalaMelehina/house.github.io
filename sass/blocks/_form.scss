@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 35px;
+    max-width: 540px;
+}
+
+.form__item {
+    min-width: 255px;
+    height: 50px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: #BEBEBE;
+    text-align: center;
+}
+
+.form__text {
+    max-width: 255px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #E7E7E7;
+}
+

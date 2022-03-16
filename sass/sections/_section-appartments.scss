@@ -1,0 +1,21 @@
+.section-appartments {
+    position: relative;
+    background-color: $bg-color;
+}
+
+.section-appartments__title {
+    margin-bottom: 100px;
+}
+
+.section-appartments__row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.section-appartments__img {
+    position: absolute;
+    top: 100px;
+    left: 180px;
+}
