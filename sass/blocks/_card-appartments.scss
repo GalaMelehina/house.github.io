@@ -1,6 +1,15 @@
 .card-appartments {
+    position: relative;
     width: 535px;
     height: 320px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:hover .card-appartments__title span {
+        opacity: 1;
+    }
 }
 
 .card-1 {
@@ -29,4 +38,28 @@
 .card-appartments__title {
     padding-top: 248px;
     padding-left: 50px;
+}
+
+.card-appartments__title span {
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: inline-block;
+    min-width: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 51px;
+    background: #D4C17F;
+    border-radius: 80px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 51px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: 0.5s ease-in;
 }

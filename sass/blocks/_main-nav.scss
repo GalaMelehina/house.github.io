@@ -11,5 +11,16 @@
     line-height: 1.14;
     letter-spacing: 0.05em;
     text-decoration: none;
+
+    &:hover {
+        animation: updown 0.3s;
+        color: $accent-color;
+    }
+}
+
+@keyframes updown {
+    0% {transform: translateY(-20%);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(50%);}
 }
 

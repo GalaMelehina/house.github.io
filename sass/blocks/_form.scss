@@ -18,6 +18,10 @@
     line-height: 2;
     color: #BEBEBE;
     text-align: center;
+
+    &:focus {
+        opacity: 0.8;
+    }
 }
 
 .form__text {
@@ -30,4 +34,3 @@
     line-height: 1.2;
     color: #E7E7E7;
 }
-

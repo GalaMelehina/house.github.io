@@ -44,3 +44,11 @@
 .footer__icons a:not(:last-child) {
     margin-right: 20px;
 }
+
+.footer__icons svg {
+    fill: #FFFFFF;
+
+    &:hover {
+        fill: $accent-color;
+    }
+}
