@@ -7,7 +7,7 @@
         opacity: 0.8;
     }
 
-    &:hover .card-appartments__title span {
+    &:hover .card-appartments__button {
         opacity: 1;
     }
 }
@@ -40,10 +40,10 @@
     padding-left: 50px;
 }
 
-.card-appartments__title span {
+.card-appartments__button {
     position: absolute;
     z-index: 3;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -62,4 +62,24 @@
     color: #FFFFFF;
     opacity: 0;
     transition: 0.5s ease-in;
+}
+
+.modal-button {
+    text-align: center;
+}
+
+.modal-button button {
+    display: inline-block;
+    min-width: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 51px;
+    background: #D4C17F;
+    border-radius: 80px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 51px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
 }

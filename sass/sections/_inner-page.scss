@@ -7,3 +7,13 @@
     margin-bottom: 50px;
     text-align: center;
 }
+
+.card-galery {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+}

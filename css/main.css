@@ -171,6 +171,28 @@ body > * {
   background-color: #242B33;
 }
 
+.fade-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #242B33;
+  z-index: 9;
+}
+
+.modal-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}
+
 .logo__title {
   font-family: 'Post No Bills Jaffna SemiBold';
   font-style: normal;
@@ -293,7 +315,7 @@ body > * {
 .card-appartments:hover {
   opacity: 0.8;
 }
-.card-appartments:hover .card-appartments__title span {
+.card-appartments:hover .card-appartments__button {
   opacity: 1;
 }
 
@@ -326,10 +348,10 @@ body > * {
   padding-left: 50px;
 }
 
-.card-appartments__title span {
+.card-appartments__button {
   position: absolute;
   z-index: 3;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -348,6 +370,26 @@ body > * {
   color: #FFFFFF;
   opacity: 0;
   transition: 0.5s ease-in;
+}
+
+.modal-button {
+  text-align: center;
+}
+
+.modal-button button {
+  display: inline-block;
+  min-width: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 51px;
+  background: #D4C17F;
+  border-radius: 80px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 51px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
 }
 
 .form {
@@ -806,6 +848,18 @@ body > * {
 .loft h2 {
   margin-bottom: 50px;
   text-align: center;
+}
+
+.card-galery {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
