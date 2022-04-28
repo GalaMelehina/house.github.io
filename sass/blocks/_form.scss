@@ -4,6 +4,22 @@
     column-gap: 25px;
     row-gap: 35px;
     max-width: 540px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        max-width: 350px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        justify-content: flex-end;
+        column-gap: 0px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        justify-content: center;
+    }
 }
 
 .form__item {

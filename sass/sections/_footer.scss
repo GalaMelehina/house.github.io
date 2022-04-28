@@ -9,6 +9,13 @@
 .footer__row {
     display: flex;
     justify-content: space-between;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        flex-direction: column-reverse;
+        row-gap: 20px;
+        align-items: center;
+    }
 }
 
 .footer .main__nav {
@@ -27,6 +34,11 @@
     line-height: 1.14;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .footer__info a {
@@ -39,6 +51,11 @@
 
 .footer__icons {
     margin-top: 20px;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .footer__icons a:not(:last-child) {

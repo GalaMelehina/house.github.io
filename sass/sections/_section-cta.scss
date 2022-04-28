@@ -1,19 +1,47 @@
 .section-cta {
+    padding-top: 180px;
     background-image: url(./../../img/bg-form.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        padding-top: 100px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        padding-top: 60px;
+    }
 }
 
 .section-cta__title {
-    padding-top: 180px;
     margin-bottom: 30px;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .section-cta__row {
     display: flex;
     justify-content: space-between;
     padding-bottom: 180px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        padding-bottom: 100px;
+    }
+    
+    /* Mobile */
+    @media (max-width: 767px) {
+        padding-bottom: 50px;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
 }
 
 .section-cta__text {
@@ -24,4 +52,15 @@
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        max-width: 350px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        text-align: center;
+        font-size: 14px;
+    }
 }

@@ -5,9 +5,43 @@
     max-width: 900px;
     height: 600px;
     // background-color: #e73c3c;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        max-width: 900px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        max-width: 766px;
+        margin-bottom: 0px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        max-width: 320px;
+        height: 280px;
+    }
 }
 
 .slider-wrapper img {
     width: 900px;
     height: 600px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        max-width: 899px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        max-width: 766px;
+        height: 500px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        max-width: 320px;
+        height: 210px;
+    }
 }

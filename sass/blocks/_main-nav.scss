@@ -1,6 +1,32 @@
 .main__nav {
     display: flex;
     column-gap: 40px;
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        z-index: 5;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #2D2D2D;
+        opacity: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+
+        // transition: top 0s linear, opacity .2s ease-in;
+        transition: opacity .2s ease-in, top 0s linear 0.2s,;
+    }
+}
+
+.main__nav.nav--active {
+    top: 0;
+    opacity: 0.9;
+    transition: top 0s linear, opacity .2s ease-in;
 }
 
 .main__nav-item {
@@ -15,6 +41,17 @@
     &:hover {
         animation: updown 0.3s;
         color: $accent-color;
+    }
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        font-size: 12px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        margin-top: 35px;
+        font-size: 22px;
     }
 }
 

@@ -4,6 +4,21 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 1.5;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        font-size: 32px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        font-size: 28px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        font-size: 24px;
+    }
 }
 
 .logo p {

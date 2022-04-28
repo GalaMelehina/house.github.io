@@ -1,12 +1,22 @@
 .card {
     max-width: 193px;
     text-align: center;
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        max-width: 140px;
+    }
 }
 
 .card__img {
     margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        margin-bottom: 30px;
+    }
 }
 
 .card__text {
@@ -15,4 +25,14 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 1.35;
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        font-size: 16px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
 }

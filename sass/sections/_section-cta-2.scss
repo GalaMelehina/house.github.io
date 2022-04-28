@@ -1,15 +1,43 @@
 .section-cta-2 {
     background-color: $bg-color;
     padding-bottom: 180px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        padding-bottom: 120px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        padding-bottom: 80px;
+    }
 }
 
 .section-cta-2__title {
     margin-bottom: 50px;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 }
 
 .section-cta-2 .form {
     flex-wrap: nowrap;
     align-items: center;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        column-gap: 20px;
+    }
 }
 
 .section-cta-2 .form__text {
